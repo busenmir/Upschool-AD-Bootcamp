@@ -1,0 +1,26 @@
+
+<resources>
+    <string name="app_name">My Project</string>
+    <string name="lets_start">Let’s Start!</string>
+    <string name="start_now">Start Now</string>
+    <string name="efficiently_and_effectively">efficiently and effectively</string>
+    <string name="learn_at_home">Learn at home!</string>
+    <string name="_5_99">$5.99</string>
+    <string name="email">Email:</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="premium_yearly">Yearly</string>
+    <string name="premium_button">Go Premium</string>
+    <string name="premium_per_month">per month</string>
+    <string name="premium_per_yearly">per yearly</string>
+    <string name="yearly_143_99">$143.99</string>
+    <string name="yearly_59_99">$59.99</string>
+    <string name="premium_monthly">Monthly</string>
+    <string name="premium_4_99">$4.99</string>
+    <string name="box_rectangle">box_rectangle</string>
+    <string name="premium_image">premium_image</string>
+    <string name="premium_11_99">$11.99</string>
+    <string name="get_unlimited_access">Get unlimited\n access!</string>
+</resources>
