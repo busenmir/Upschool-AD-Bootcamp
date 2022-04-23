@@ -5,11 +5,6 @@
 - Lateinit neden kullanıyoruz?
 - Lateinit kullanımından bahseder misiniz?
 - Lateinit için bir örnek kullanım gösterir misiniz ?
-### <a name="2"></a> Araştırma Projesi 2
-- Layout dizini içinde xml dosyalarımız için kullandığımız namespace nedir ?
-- Neden kullanılmaktadır ?, Nasıl kullanılmalıdır ?
-- Bir adet Tools (tools namespace) attribute kullanımını gösterir misiniz ? 
-
 # Lateinit
 #### Kotlin programlama dilinde birden çok değişken ve değişken tanımlama türleri vardır. Bunlar dan bazıları var,val,lateinit,lazy , getter&setters .. olarak çoğaltılabilir. Lateinit değişkenini incelemek istersek ; Türkçe anlamından da anlamamız gerekirse geç başlangıç anlamına gelir. Geç başlangıç demek kısaca “ seni şuan tanımlıyorum, fakat ben sana bir şey verene kadar sadece bekle değerini boşta bırakıyorum “ demektir. Eğer bu değişkeni kullanacağınız garanti ise fakat vereceğiniz, atayacağınız değer hakkında emin değilsek bu işi lateinit ile yapabiliyoruz. Programımıza dahil ettiğimiz zaman lateinit başlatılana kadar bellekte ona yer ayrılmaz.Bir lateinit her zaman var ya da NOT val değişkeni kullanmalıdır. Ufak bir örnek yapalım :
 ### Örnek
@@ -22,6 +17,11 @@ olamaz ve sen kullanmaya başladığın ana kadar bekler. Bu açıdan database d
 daha güvenli gözükebilir. Ancak null bir değer geldiğinde late init null gelebilecek verileri 
 engeller,backend de bekletir. Eğer bir argümanın null gelme ihtimalinin olmadığından kesin 
 olarak eminseniz lateinit kullanmalısınız.
+
+### <a name="2"></a> Araştırma Projesi 2
+- Layout dizini içinde xml dosyalarımız için kullandığımız namespace nedir ?
+- Neden kullanılmaktadır ?, Nasıl kullanılmalıdır ?
+- Bir adet Tools (tools namespace) attribute kullanımını gösterir misiniz ? 
 
 #  Namespace Nedir ? 
 #### Layout dizini içinde xml dosyalarımız için kullandığımız namespace, b,r XML belgesindeki öğe veya öznitelik adları olarak kullanabilen namespace topluluğudur. Öğe adlandırma çakışmalarından kaçınmanın bir yolunu sağlar.Örneğin, A marketin de makarna adlı ürün ve B marketindeki makarna adlı başka bir ürün vardır. Aynı ada sahip bu iki ürünü nasıl tanımlayabiliriz? Namespace bu alan için kullanışlı olacaktır ve çakışmayı önleyecektir. A ve B marketleri namespace olarak kabul edilebilir. Başka bir deyişle, namespace belirli özniteliklerin bir koleksiyonunu içerir.Çakışmaları önleyebilmesi en önemli özelliklerindendir. Kullanırken aynı nesneler dikkate alınmalıdır.
