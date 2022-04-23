@@ -34,3 +34,12 @@ olarak eminseniz lateinit kullanmalısınız.
 * Tools:ignore özelliğini ele alırsak ;Tools:ignore Bu öznitelik herhangi bir XML öğesinde ayarlanabilir ve bu öğede adından da anlaşılacağı üzere aldırmamak kelimesini sahiplenir. Yani herhangi bir alt öğesinde yinelemeli olarak yok sayılması gerektiği zamanki listelemesidir.En çok başıma gelen ise : tools:ignore="MissingConstraints" attiribues kullanmaktır.Sorunlu XML öğesine veya onu çevreleyen öğelerden birsine bastırma özelliğini sahipler.
 
 ![örnek2](https://user-images.githubusercontent.com/72807779/163562738-9d43cb3a-57fe-44ca-84dc-685188f21db4.png)
+
+## <a name="3"></a> Araştırma Projesi 3
+
+- Font family dosyası nasıl oluşturulup kullanıyoruz?
+- Neden belirttiğiniz şekilde kullanımı tercih ediyoruz?
+
+## <a name="4"></a> Araştırma Projesi 4
+
+- Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
