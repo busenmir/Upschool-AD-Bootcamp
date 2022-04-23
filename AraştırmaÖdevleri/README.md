@@ -24,13 +24,14 @@ olarak eminseniz lateinit kullanmalısınız.
 - Bir adet Tools (tools namespace) attribute kullanımını gösterir misiniz ? 
 
 #  Namespace Nedir ? 
-#### Layout dizini içinde xml dosyalarımız için kullandığımız namespace, b,r XML belgesindeki öğe veya öznitelik adları olarak kullanabilen namespace topluluğudur. Öğe adlandırma çakışmalarından kaçınmanın bir yolunu sağlar.Örneğin, A marketin de makarna adlı ürün ve B marketindeki makarna adlı başka bir ürün vardır. Aynı ada sahip bu iki ürünü nasıl tanımlayabiliriz? Namespace bu alan için kullanışlı olacaktır ve çakışmayı önleyecektir. A ve B marketleri namespace olarak kabul edilebilir. Başka bir deyişle, namespace belirli özniteliklerin bir koleksiyonunu içerir.Çakışmaları önleyebilmesi en önemli özelliklerindendir. Kullanırken aynı nesneler dikkate alınmalıdır.
+#### Layout dizini içinde xml dosyalarımız için kullandığımız namespace, bir XML belgesindeki öğe veya öznitelik adları olarak kullanabilen namespace topluluğudur. Öğe adlandırma çakışmalarından kaçınmanın bir yolunu sağlar.Örneğin, A marketin de makarna adlı ürün ve B marketindeki makarna adlı başka bir ürün vardır. Aynı ada sahip bu iki ürünü nasıl tanımlayabiliriz? Namespace bu alan için kullanışlı olacaktır ve çakışmayı önleyecektir. A ve B marketleri namespace olarak kabul edilebilir. Başka bir deyişle, namespace belirli özniteliklerin bir koleksiyonunu içerir.Çakışmaları önleyebilmesi en önemli özelliklerindendir. Kullanırken aynı nesneler dikkate alınmalıdır.Layout dizininde xml dosyaları için kullandığımız 3 adet namespace vardır ; app , android , tools
+
 ### Örnek
 ![örnek1](https://user-images.githubusercontent.com/72807779/163562432-6cd32530-4e4b-41fe-9b83-3dff2418ec88.png)
 
 #### Yukarıda belirtmiş olduğum kodlar bir uygulama içerisindeki öğelere benzersiz değerler atamaya , Android stüdyoda derleme zamanının hatalarının işlenmesini kolaylaştırmaya sağlayan namespacebloklarıdır diyebiliriz. 
 # Tools namespace'i nedir? 
-#### Araçlar Alan Adı olarak tanımlanır. Emülatör deki görünümümüze uygulayabileceğimiz işlevleri bildiren layout componentlerin çalışması için gereken bir XML layout alanıdır. Tasarım zamanında bir layotun bileşenin hangi düzeninde gösterilmesini sağlayan bir çok XML nitekliklerini destekleyen yapıdır.Örneğin ; 
+#### Araçlar Alan Adı olarak tanımlanır. Emülatör deki görünümümüze uygulayabileceğimiz işlevleri bildiren layout componentlerin çalışması için gereken bir XML layout alanıdır. Genelde emülatörü çalıştırmadan nasıl görüneceğini görmek için kullanılır. Kod için bir önemi yoktur.Tasarım zamanında bir layotun bileşenin hangi düzeninde gösterilmesini sağlayan bir çok XML nitekliklerini destekleyen yapıdır.Örneğin ; 
 * Tools:ignore özelliğini ele alırsak ;Tools:ignore Bu öznitelik herhangi bir XML öğesinde ayarlanabilir ve bu öğede adından da anlaşılacağı üzere aldırmamak kelimesini sahiplenir. Yani herhangi bir alt öğesinde yinelemeli olarak yok sayılması gerektiği zamanki listelemesidir.En çok başıma gelen ise : tools:ignore="MissingConstraints" attiribues kullanmaktır.Sorunlu XML öğesine veya onu çevreleyen öğelerden birsine bastırma özelliğini sahipler.
 
 ![örnek2](https://user-images.githubusercontent.com/72807779/163562738-9d43cb3a-57fe-44ca-84dc-685188f21db4.png)
