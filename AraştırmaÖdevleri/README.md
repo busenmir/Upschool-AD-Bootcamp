@@ -1,6 +1,9 @@
 # Araştırma Ödevleri:
 - [Araştırma Projesi 1 - Lateinit](#1)
 - [Araştırma Projesi 2 - Tools Namespace](#2)
+- [Araştırma Projesi 3 - Font family XML](#3)
+- [Araştırma Projesi 4 - Property Animation](#4)
+- 
 ### <a name="1"></a> Araştırma Projesi 1
 - Lateinit neden kullanıyoruz?
 - Lateinit kullanımından bahseder misiniz?
@@ -41,6 +44,24 @@ olarak eminseniz lateinit kullanmalısınız.
 - Font family dosyası nasıl oluşturulup kullanıyoruz?
 - Neden belirttiğiniz şekilde kullanımı tercih ediyoruz?
 
+# Font family dosyası nasıl kullanılır ? 
+#### Font family dosyası projemizde font özelliklerini çeşitlendirmek için kullanılır. Bunun için dışarıdan bulduğumuz bir fontu indirip projeye ekleme yapmalıyız. Bazı font bulabileceğiniz siteler ise ;
+* Dafont
+* 1001FreeFonts
+* FontTr
+* Fonts – Google’ın
+* UrbanFonts
+#### Buradan font dosyamızı ttf yada otf uzantılı olarak indirip projemize Res > New > Directory > Font isminde bir klasör açarak dahil ediliyoruz. 
+![Ekran Alıntısı](https://user-images.githubusercontent.com/72807779/164969835-46fa2a64-29d2-4045-bb1b-91492414d011.PNG)
+
+#### Font family dosyalarının aslında birden çok kullanımı mevcuttur. Bunu dosya uzantısı ekleyerek de yapabilirsiniz ya da bir style oluştururak XML formatınsa gerçekleştirebilirsiniz. Pekala bunun ayrımı nedir ? Eğer tek bir text inizde font değişikliği kullanacaksanız dosya kullanımı gerçekleştirilebilir ancak bu font tipini birden çok text inizde kullanacak iseniz bunun özelliklerini barındıran bir XML dosyasını style içerisinde birleştirirek gerçekleştirmek daha iyi olacaktır.  
+
 ## <a name="4"></a> Araştırma Projesi 4
 
 - Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
+
+# Android Animasyon Kullanımı 
+#### Animasyon , nesnelerin arayüzde hareket kazanması,şekil değişikliği koordinat değişikliği gibi olayları arayüzümüze kazandırmamızı sağlar . Androidde 3 çeşit animasyon vardır. 
+* Value Animator :
+* Object Animator : 
+* AnimatorSet : 
