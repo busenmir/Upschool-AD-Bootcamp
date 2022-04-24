@@ -68,6 +68,9 @@ olarak eminseniz lateinit kullanmalısınız.
 
 #### Mini Projeme -Projeler- Kısmından ulaşabilirsiniz.
 
-![Android-Emulator-UpSchool3-2022-04-24-13-50-21 (2)](https://user-images.githubusercontent.com/72807779/164974092-aea83043-c7f8-43fa-a282-a8706666546b.gif)
+
+
+https://user-images.githubusercontent.com/72807779/164974697-531f289d-9b1f-4bd5-a4dd-03becb9b83e6.mp4
+
 
 
