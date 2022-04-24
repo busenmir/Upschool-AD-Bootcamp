@@ -62,6 +62,12 @@ olarak eminseniz lateinit kullanmalısınız.
 
 # Android Animasyon Kullanımı 
 #### Animasyon , nesnelerin arayüzde hareket kazanması,şekil değişikliği koordinat değişikliği gibi olayları arayüzümüze kazandırmamızı sağlar . Androidde 3 çeşit animasyon vardır. 
-* Value Animator :
-* Object Animator : 
-* AnimatorSet : 
+* Value Animator : Nesnemize verdiğimiz animasyon değerlerini hesaplayan ve bunları hedes nesnelerimize ayarlayan animasyonları çalıştırmak için kullanılan animasyon türüdür. Çoğu yerde zamanlama motoru olarak da geçmektedir. 
+* Object Animator : Value Animator un alt sınıfı olan object animator tek bir nesneye animasyon vermek istediğimiz zaman kullanılır. Belirlenen başlangıç ve bitiş değerleri arasında nesneye animasyon uygulanır.
+* AnimatorSet : Animasyonların belirlenen sırada sırasıyla uygulanmasıdır. 
+
+#### Mini Projeme -Projeler- Kısmından ulaşabilirsiniz.
+
+![Android-Emulator-UpSchool3-2022-04-24-13-50-21 (2)](https://user-images.githubusercontent.com/72807779/164974092-aea83043-c7f8-43fa-a282-a8706666546b.gif)
+
+
