@@ -15,6 +15,7 @@ class PremiumActivity : AppCompatActivity() {
         setContentView(R.layout.activity_premium)
         binding= DataBindingUtil.setContentView(this, R.layout.activity_premium)
         binding.premiumNesnesi=this
+        buttonTikla3()
 
     }
     fun buttonTikla3(){

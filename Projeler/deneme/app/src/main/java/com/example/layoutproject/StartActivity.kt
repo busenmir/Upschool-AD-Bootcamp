@@ -15,6 +15,7 @@ class StartActivity : AppCompatActivity() {
         setContentView(R.layout.activity_start)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_start)
         binding.startNesnesi=this
+        buttonTikla2()
 
     }
     fun buttonTikla2(){
