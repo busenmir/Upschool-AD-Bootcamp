@@ -27,7 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/main_image"
         style="@style/mainTitle" />
     <TextView
-        android:id="@+id/efficientlyText"
+        android:id="@+id/EffText"
         android:layout_marginTop="11dp"
         android:text="@string/e_and_e"
         android:textSize="17sp"
@@ -45,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/efficientlyText" />
+        app:layout_constraintTop_toBottomOf="@+id/EffText" />
 
 
 
