@@ -61,11 +61,12 @@ olarak eminseniz lateinit kullanmalısınız.
 - Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
 
 # Android Animasyon Kullanımı 
-#### Animasyon , nesnelerin arayüzde hareket kazanması,şekil değişikliği koordinat değişikliği gibi olayları arayüzümüze kazandırmamızı sağlar . Androidde 3 çeşit animasyon vardır. 
+#### Animasyon , nesnelerin arayüzde hareket kazanması,şekil değişikliği koordinat değişikliği gibi olayları arayüzümüze kazandırmamızı sağlar . Androidde 3 çeşit animasyon vardır.
+* Animator : Belirli bir süre boyunca belirlenen animasyon türüne göre animasyonu gerçekleştirmeyi sağlar. 
 * Value Animator : Nesnemize verdiğimiz animasyon değerlerini hesaplayan ve bunları hedes nesnelerimize ayarlayan animasyonları çalıştırmak için kullanılan animasyon türüdür. Çoğu yerde zamanlama motoru olarak da geçmektedir. 
 * Object Animator : Value Animator un alt sınıfı olan object animator tek bir nesneye animasyon vermek istediğimiz zaman kullanılır. Belirlenen başlangıç ve bitiş değerleri arasında nesneye animasyon uygulanır.
 * AnimatorSet : Animasyonların belirlenen sırada sırasıyla uygulanmasıdır. 
-
+objectAnimator belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırır. ObjectAnimator'ı temsil eder.
 #### Mini Projeme -Projeler- Kısmından ulaşabilirsiniz.
 
 
