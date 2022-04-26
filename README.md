@@ -1,4 +1,4 @@
-# Upschool-AD-Bootcamp
+# UpSchool-AD-Bootcamp
 <img align="right" height="270px" alt="guy" width="350" src="https://media.giphy.com/media/z2KbVZxKCHxxIDhnsQ/giphy.gif" /> </a>
 ### 👋 Herkese Merhabalar 👋 🌸🌸
 
