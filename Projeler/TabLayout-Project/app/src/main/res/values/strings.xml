@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TabLayoutKullanimi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uan_android_sayfas_ndas_n_z">Şuan Android Sayfasındasınız</string>
+    <string name="uan_ios_sayfas_ndas_n_z">Şuan IOS Sayfasındasınız</string>
+    <string name="uan_flutter_sayfas_ndas_n_z">Şuan Flutter Sayfasındasınız</string>
+</resources>
