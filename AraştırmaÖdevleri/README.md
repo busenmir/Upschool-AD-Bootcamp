@@ -3,7 +3,7 @@
 - [Araştırma Projesi 2 - Tools Namespace](#2)
 - [Araştırma Projesi 3 - Font family XML](#3)
 - [Araştırma Projesi 4 - Property Animation](#4)
-- 
+- [Araştırma Projesi 5 - TabLayout](#5)
 ### <a name="1"></a> Araştırma Projesi 1
 - Lateinit neden kullanıyoruz?
 - Lateinit kullanımından bahseder misiniz?
@@ -61,16 +61,25 @@ olarak eminseniz lateinit kullanmalısınız.
 - Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
 
 # Android Animasyon Kullanımı 
-#### Animasyon , nesnelerin arayüzde hareket kazanması,şekil değişikliği koordinat değişikliği gibi olayları arayüzümüze kazandırmamızı sağlar . Androidde 3 çeşit animasyon vardır. 
+#### Animasyon , nesnelerin arayüzde hareket kazanması,şekil değişikliği koordinat değişikliği gibi olayları arayüzümüze kazandırmamızı sağlar . Androidde 3 çeşit animasyon vardır.
+* Animator : Belirli bir süre boyunca belirlenen animasyon türüne göre animasyonu gerçekleştirmeyi sağlar. 
 * Value Animator : Nesnemize verdiğimiz animasyon değerlerini hesaplayan ve bunları hedes nesnelerimize ayarlayan animasyonları çalıştırmak için kullanılan animasyon türüdür. Çoğu yerde zamanlama motoru olarak da geçmektedir. 
 * Object Animator : Value Animator un alt sınıfı olan object animator tek bir nesneye animasyon vermek istediğimiz zaman kullanılır. Belirlenen başlangıç ve bitiş değerleri arasında nesneye animasyon uygulanır.
 * AnimatorSet : Animasyonların belirlenen sırada sırasıyla uygulanmasıdır. 
-
+objectAnimator belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırır. ObjectAnimator'ı temsil eder.
 #### Mini Projeme -Projeler- Kısmından ulaşabilirsiniz.
 
 
 
 https://user-images.githubusercontent.com/72807779/164974697-531f289d-9b1f-4bd5-a4dd-03becb9b83e6.mp4
 
+### <a name="5"></a> Araştırma Projesi 5
+- App Navigation ile TabLayout kullanılabiliyor mu ? Kullanmazsa navigation graph ile en doğru kullanımı ne olur ?
+### Konuyla ilgili gerekli araştırmalarımı yaptığım takdirde şu kanılara ulaşmış bulunmaktayım ;  
+* App Navigation ile TabLayout kullanımı aslında gerçekleştirmesi olanaklı bir yapıdır. Fakat bu yapılar oldukça karmaşık bir hale getirmektedir. Bu yüzden bu konuyla ilgili bir çok farklı yaklaşımlar denenmiştir. Ancak sekmeler arasında birden çok kez geçiş yapma olanağı bulunduğu için bu bize bir yığın sorunu oluşturabileceği doğrulmuştur. Bu mevsut sorun ile ilgili olarak Google Andrioid Sorunların da bazı bildirimler farkettim şu linkten ulaşabilirsiniz 👉🏼 https://issuetracker.google.com/issues/122087752
+* Android Developers Youtube kanalında ulaşmış olduğum videodan alıntıya istinaden ise Navigation yığında birikimi etkileyen öğelere odaklanan bir yapıdır. Fakat TabLayout sekmelere odaklanan bir yapıdır. Yani buradan Navigation sekmeleri etkileyen ve ilgilendiren bir yapı değildir.Sekmeler arka yığını için Navigation etkilemezdir.Böylelikle viewPager ve Tabloyut birleşimi ile kullanım sağlanmalıdır açıklaması yapılmıştır. Video Linki İçin 👉🏼 https://www.youtube.com/watchv=zQekzaAgIlQ
+* NavigationComponent ile TabLayout kullanımı vardır. Ancak bunun için Google Android tarafından sunulan koşullara karşı çıkmış olacağız.  
+1️⃣ Çapraz yan geçiş animasyonları BottomNavigationView öğeleri için amaçlanan bir davranıştır.
+2️⃣ Navigation , arka yığını etkileyen öğelere odaklanır ve TabLayout içerisinde sekmeler yığını etkilemez.
 
-
+### 🌸🌸 Mini Projeme Projeler kısmından ulaşabilirsiniz. 
